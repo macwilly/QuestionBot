@@ -1,6 +1,6 @@
 struct MyQuestionAnswerer {
     func responseTo(question: String) -> String {
-        // TODO: Write a response
-        return "?"
+        var ret = "I'm sorry, I don't understand the question."
+        return ret
     }
 }
